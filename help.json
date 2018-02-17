@@ -1,0 +1,215 @@
+{
+    "Help": {
+        "name": "Help",
+        "group": "util",
+        "desc": "Displays all commands.",
+        "usage": "help [group]",
+        "example": "help fun"
+    },
+    "Afk": {
+        "name": "AFK",
+        "group": "util",
+        "desc": "Sets you as AFK.",
+        "usage": "afk [reason]",
+        "example": "afk im afk"
+    },
+    "Listafk": {
+        "name": "ListAFK",
+        "group": "util",
+        "desc": "Shows all AFK users.",
+        "usage": "listafk",
+        "example": "listafk"
+    },
+    "Invite": {
+        "name": "Invite",
+        "group": "util",
+        "desc": "DMs you a bot invite.",
+        "usage": "invite",
+        "example": "invite"
+    },
+    "Ping": {
+        "name": "Ping",
+        "group": "misc",
+        "desc": "Pong!",
+        "usage": "ping",
+        "example": "ping"
+    },
+    "SetMCName": {
+        "name": "SetMCName",
+        "group": "misc",
+        "desc": "Sets your MC ingame name.",
+        "usage": "setmcname <name>",
+        "example": "setmcname bobb"
+    },
+    "SeeMCname": {
+        "name": "SeeMCname",
+        "group": "misc",
+        "desc": "Shows the ingame name of a user.",
+        "usage": "seemcname <name>",
+        "example": "seemcname bob (Returns bobb)"
+    },
+
+    "uptime": {
+        "name": "Uptime",
+        "group": "util",
+        "desc": "Shows how long the bot has been up.",
+        "usage": "uptime [\"ms\"]",
+        "example": "uptime"
+    },
+    "likeuser": {
+        "name": "Likeuser",
+        "group": "misc",
+        "desc": "Adds 10XP to listed user.",
+        "usage": "likeuser <user>",
+        "example": "likeuser bob"
+    },
+    "Prefix": {
+        "name": "Prefix",
+        "group": "util",
+        "desc": "Changes the server prefix.",
+        "usage": "prefix <prefix>",
+        "example": "prefix ]]"
+    },
+    "Seetop": {
+        "name": "SeeTop",
+        "group": "misc",
+        "desc": "Shows the top user on the server.",
+        "usage": "seetop",
+        "example": "seetop"
+    },
+    "Rock Paper Scissors": {
+        "name": "Rock Paper Scissors",
+        "group": "fun",
+        "desc": "Plays a RPS match.",
+        "usage": "rps <choice>",
+        "example": "rps rock"
+    },
+
+    "AdminHelp": {
+        "name": "Admin Help",
+        "group": "Admin",
+        "desc": "Shows admin commands.",
+        "usage": "help",
+        "example": "help"
+    },
+    "SetLevel": {
+        "name": "setlevel",
+        "group": "Admin",
+        "desc": "Sets user level.",
+        "usage": "setlevel <user> <level>",
+        "example": "setlevel bob 20"
+    },
+    "setbotrank": {
+        "name": "setbotrank",
+        "group": "Admin",
+        "desc": "Sets user rank for bot.",
+        "usage": "setbotrank <rank> <userl>",
+        "example": "setbotrank user bob"
+    },
+    "Rolldice": {
+        "name": "rolldice",
+        "group": "fun",
+        "desc": "Rolls an amount of dice.",
+        "usage": "rolldice <value> [amount]",
+        "example": "rolldice 6 2"
+    },
+    "seeprofile": {
+        "name": "SeeProfile",
+        "group": "util",
+        "desc": "Shows a user profile.",
+        "usage": "seeprofile [mentionuser]",
+        "example": "seeprofile @bob"
+    },
+    "shop": {
+        "name": "Shop",
+        "group": "shop",
+        "desc": "Shows the shop items or buys an item.",
+        "usage": "shop [item]",
+        "example": "shop ultimate_user"
+    },
+    "additem": {
+        "name": "additem (shop owner only)",
+        "group": "shop",
+        "desc": "Adds an item to the shop",
+        "usage": "additem <item> <price>",
+        "example": "additem ultimate_user 9999999"
+    },
+    "removeitem": {
+        "name": "removeitem (shop owner only)",
+        "group": "shop",
+        "desc": "Removes an item from the shop",
+        "usage": "removeitem <item / All> (\"All\" is case sensitive)",
+        "example": "removeitem ultimate_user"
+    },
+    "becomeshopuser": {
+        "name": "becomeshopowner",
+        "group": "shop",
+        "desc": "Makes you receive DMs when someone buys something.",
+        "usage": "becomeshopowner",
+        "example": "becomeshopowner"
+    },
+    "setuserbalance": {
+        "name": "setuserbalance",
+        "group": "Admin",
+        "desc": "Sets a user's balance.",
+        "usage": "setuserbalance <name> <value>",
+        "example": "setuserbalance bob 20"
+    },
+    "toggleownerchange": {
+        "name": "toggleownerchange (shop owner only)",
+        "group": "shop",
+        "desc": "Toggles the use of becomeshopowner.",
+        "usage": "toggleownerchange",
+        "example": "toggleownerchange"
+    },
+    "todo": {
+        "name": "todo",
+        "group": "util",
+        "desc": "Shows the todo list.",
+        "usage": "todo",
+        "example": "todo"
+    },
+    "addtodo": {
+        "name": "addtodo",
+        "group": "util",
+        "desc": "Adds an item to the todo list.",
+        "usage": "addtodo <item>",
+        "example": "addtodo clean code"
+    },
+    "removetodo": {
+        "name": "removetodo",
+        "group": "util",
+        "desc": "Removes an item from the todo list.",
+        "usage": "removetodo <item>",
+        "example": "removetodo clean code"
+    },
+    "seen": {
+        "name": "seen",
+        "group": "misc",
+        "desc": "Shows the last time a user sent a message.",
+        "usage": "seen <mention>",
+        "example": "seen @bob"
+    },
+    "setprofilecolor": {
+        "name": "Set profile color",
+        "group": "util",
+        "desc": "Sets the color of your profile, to see how to get a color, follow this link: https://goo.gl/v9rTKp.",
+        "usage": "setuserprofile <color>",
+        "example": "setuserprofile 04ce94"
+    } ,
+    "list": {
+        "name": "List",
+        "group": "util",
+        "desc": "Make,change,or delete a list",
+        "usage": "list <create/add/remove/delete> <title> <text (add/remove only)>",
+        "example": "list create todo | ??list add todo create stuff"
+    },
+    "lists": {
+        "name": "List",
+        "group": "util",
+        "desc": "Shows all lists on a server",
+        "usage": "lists",
+        "example": "lists"
+    }
+    
+}
